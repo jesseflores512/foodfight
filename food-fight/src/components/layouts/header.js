@@ -1,10 +1,11 @@
-import React from 'React'
-import AppBar from 'material-ui/AppBar'
-import Toolbar from 'material-ui/Toolbar'
+import React from 'react'
+import { AppBar, Toolbar, Typography } from 'material-ui'
 
 export default props =>
-  <AppBar position="static">
-    <Toolbar>
-
-    </Toolbar>
-  </AppBar>
+    <AppBar position="static">
+      <Toolbar>
+        <Typography variant="headline" color="inherit">
+        Category
+        </Typography>
+      </Toolbar>
+    </AppBar>

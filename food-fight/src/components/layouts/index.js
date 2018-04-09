@@ -1,10 +1,6 @@
-import React from "react";
-import { render } from "react-dom"/;
+import Header from './Header'
+import Footer from './Footer'
 
-const App = () => (
-  <div>
-    <h1>Tacos, Burges, and BBQ</h1>
-  </div>
-)
-
-render(<App />, document.getElementById("root"))
+export {
+  Header, Footer
+}
