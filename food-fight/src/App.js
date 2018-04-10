@@ -8,9 +8,9 @@ export default class extends Component {
     return <Fragment>
         <Header/>
 
-
-
         <Main/>
+
+        <subcomponents/>
       </Fragment>
 
   }
