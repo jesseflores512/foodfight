@@ -1,8 +1,7 @@
 import React from 'react'
 import { Paper } from 'material-ui'
 
-export default {{ styles }}=>
+export default ({styles})=>
 <Paper style={styles.paper}>
-  Tacos
+  Burgers
 </Paper>
-}

@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import Header from './Components/Layouts/Header';
 import Footer from './Components/Layouts/Footer';
-//import Category from '/Category'
+import subcomponents from './Components/subcomponents'
 
 export default class extends Component {
   render() {
