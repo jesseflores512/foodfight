@@ -10,8 +10,8 @@ export default props =>
        textColor="primary"
        centered
      >
-       <Tab label="Item One" />
-       <Tab label="Item Two" />
-       <Tab label="Item Three" />
+       <Tab label="Tacos" />
+       <Tab label="Burgers" />
+       <Tab label="BBQ" />
      </Tabs>
    </Paper>

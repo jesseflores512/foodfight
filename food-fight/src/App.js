@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Header from './Components/Layouts/Header';
-import Footer from './Components/Layouts/Footer';
+import Main from './Components/Layouts/Main';
 import subcomponents from './Components/subcomponents'
 
 export default class extends Component {
@@ -10,7 +10,7 @@ export default class extends Component {
 
 
 
-        <Footer/>
+        <Main/>
       </Fragment>
 
   }
