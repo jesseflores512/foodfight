@@ -46,7 +46,7 @@ function ButtonAppBar(props) {
       <AppBar position="static">
         <Toolbar>
           <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
-
+          <Button color="inherit">Menu</Button>
           </IconButton>
           <Typography variant="title" color="inherit" className={classes.flex}>
             Food Fight
