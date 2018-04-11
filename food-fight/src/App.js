@@ -1,17 +1,13 @@
-import React, { Component, Fragment } from 'react';
-import Header from './components/layouts/header';
-import Main from './components/layouts/Main';
-import Subcomponents from './components/subcomponents'
-
-export default class extends Component {
+import React from 'react';
+import Header from './components/layouts/header'
+import Main from './components/layouts/Main'
+export default class App extends React.Component {
   render() {
-    return <Fragment>
-        <Header/>
-
-        <Main/>
-
-        <Subcomponents/>
-      </Fragment>
-
+    return(
+      <div>
+        <Header />
+        <Main />
+      </div>
+    );
   }
 }

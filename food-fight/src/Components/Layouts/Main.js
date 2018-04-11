@@ -1,17 +1,18 @@
-import React from 'react'
-import { Paper, Tabs } from 'material-ui'
-import { Tab } from 'material-ui/Tabs'
+import React from 'react';
+import Bbq from '../../components/subcomponents/Bbq'
+import Burgers from '../../components/subcomponents/Burgers'
+import Tacos from '../../components/subcomponents/Tacos'
 
-export default props =>
-  <Paper>
-     <Tabs
-       value={0}
-       indicatorColor="primary"
-       textColor="primary"
-       centered
-     >
-       <Tab label="Tacos" />
-       <Tab label="Burgers" />
-       <Tab label="BBQ" />
-     </Tabs>
-   </Paper>
+export default class Main extends React.Component {
+  render(){
+    return (
+      <div>
+        <h2>content here</h2>
+        <Bbq />
+        <Burgers />
+        <Tacos />
+
+      </div>
+    );
+  }
+}

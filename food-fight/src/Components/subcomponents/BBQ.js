@@ -1,7 +1,11 @@
 import React from 'react';
-import { Paper } from 'material-ui';
 
-export default ({ styles }) =>
-<Paper style={styles.paper}>
-  BBQ
-</Paper>
+export default class Bbq extends React.Component {
+  render(){
+    return (
+      <div>
+        <button>BBQ</button>
+      </div>
+    );
+  }
+}
