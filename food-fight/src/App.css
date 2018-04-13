@@ -10,9 +10,10 @@
   height: 150px;
   padding: 20px;
   color: #ffab35;
-  font-size: 40px;
+  font-size: 60px;
   margin-top: auto;
   align-content: center;
+  font-family: 'Press Start 2P', cursive;
 }
 
 
@@ -21,8 +22,10 @@
   border-radius: 12px;
   height: 150px;
   width: 50%;
+  font-size: 25px;
   margin-left: auto;
   margin-right: auto;
+  font-family: 'Press Start 2P', cursive;
 }
 
 .ButtonBbq {
