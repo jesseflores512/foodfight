@@ -22,7 +22,7 @@
   border-radius: 12px;
   height: 150px;
   width: 50%;
-  font-size: 25px;
+  font-size: 18px;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Press Start 2P', cursive;
@@ -42,4 +42,5 @@
 
 .ButtonHead {
   text-align: center;
+  padding: 20px;
 }
