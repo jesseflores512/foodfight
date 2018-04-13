@@ -21,9 +21,20 @@
   border-radius: 12px;
   height: 150px;
   width: 50%;
-  background-color: red;
   margin-left: auto;
   margin-right: auto;
+}
+
+.ButtonBbq {
+  background-color: orange;
+}
+
+.ButtonBurger {
+  background-color: #68e2a3;
+}
+
+.ButtonTaco {
+  background-color: #9876f7;
 }
 
 .ButtonHead {
