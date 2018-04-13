@@ -12,7 +12,19 @@
   color: #ffab35;
   font-size: 40px;
   margin-top: auto;
+  align-content: center;
 }
 
 
 /* Buttons */
+.ButtonMain {
+  border-radius: 12px;
+  height: 150px;
+  width: 50%;
+  background-color: red;
+
+}
+
+.ButtonHead {
+  text-align: center;
+}
