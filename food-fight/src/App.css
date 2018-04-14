@@ -56,8 +56,8 @@ h1, h2, h3, h4 {
 .myButton {
   color: #40C9A2;
   font-size: 15px;
-  line-height: 30px;
-  padding: 30px;
+  line-height: 15px;
+  padding: 15px;
   border-radius: 16px;
   font-family: 'Press Start 2P', cursive;
   font-weight: normal;
@@ -73,7 +73,7 @@ h1, h2, h3, h4 {
   background: #D90368; }
   .myButton:active {
   background: #D90368; }
-  
+
 
 p {
   text-align: center;
