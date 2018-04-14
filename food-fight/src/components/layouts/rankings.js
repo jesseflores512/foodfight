@@ -11,6 +11,7 @@ export default class Ranking extends React.Component {
           <p>Torchy's Tacos</p>
         <br/>
           <div className="myButton">Nominate a challenger</div>
+        <hr/>
         <h3>Burgers</h3>
         <img className="Burgers" src="../food-fight/images/pixelburger.png" alt="Burger Logo"/>
           <p>Burger Champ</p>
