@@ -47,6 +47,7 @@
 
 h1, h2, h3, h4 {
   text-align: center;
+  color: #E67F0D;
   font-size: 60px;
   font-family: 'Press Start 2P', cursive;
   font-weight: lighter;
@@ -70,7 +71,7 @@ h1, h2, h3, h4 {
   box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
   border: 2px solid rgb(28, 110, 164);
   position: absolute;
-  left: 33%;
+  left: 41%;
   display: inline-block;}
   .myButton:hover {
   background: #D90368; }
@@ -84,6 +85,7 @@ p {
   font-weight: lighter;
   font-size: 35px;
   color: #FF0000;
+
 }
 .Tacos img{
   width: 50%;

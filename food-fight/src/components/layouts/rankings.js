@@ -1,12 +1,13 @@
 import React from 'react';
 
+
 export default class Ranking extends React.Component {
   render(){
     return (
       <div>
         <h1>2018 RANKINGS</h1>
         <h2>Tacos</h2>
-          <img className="Tacos" src="/food-fight/images/pixeltaco.png" alt="Taco Logo"/>
+          <img className="Tacos" src="../foodfight/food-fight/images/pixeltaco.png" alt="Taco Logo"/>
           <p>Taco Champ</p>
           <p>Torchy's Tacos</p>
         <br/>
