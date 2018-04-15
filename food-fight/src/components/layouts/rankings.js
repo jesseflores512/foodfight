@@ -7,20 +7,17 @@ export default class Ranking extends React.Component {
       <div>
         <h1>2018 RANKINGS</h1>
         <h2>Tacos</h2>
-          <img className="Tacos" src="../foodfight/food-fight/images/pixeltaco.png" alt="Taco Logo"/>
           <p>Taco Champ</p>
           <p>Torchy's Tacos</p>
         <br/>
           <div className="myButton">Nominate a challenger</div>
         <hr/>
-        <h3>Burgers</h3>
-        <img className="Burgers" src="../food-fight/images/pixelburger.png" alt="Burger Logo"/>
+        <h2>Burgers</h2>
           <p>Burger Champ</p>
           <p>Hopdoddy</p>
         <br/>
           <div className="myButton">Nominate a challenger</div>
-        <h4>BBQ</h4>
-        <img className="BBQ" src="./pixelsteak2.png" alt="BBQ Logo"/>
+        <h2>BBQ</h2>
           <p>BBQ Champ</p>
           <p>LA Barbeque</p>
         <br/>

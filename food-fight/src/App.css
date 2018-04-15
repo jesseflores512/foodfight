@@ -45,7 +45,7 @@
   padding: 20px;
 }
 
-h1, h2, h3, h4 {
+ h2, h3, h4 {
   text-align: center;
   color: #E67F0D;
   font-size: 60px;
@@ -87,16 +87,19 @@ p {
   color: #FF0000;
 
 }
-.Tacos img{
-  width: 50%;
+.Tacos {
+  width: 25%;
 }
 
-.Burgers img{
-  width: 50%;
+.Burgers {
+  width: 20%;
 }
 
-.BBQ img{
-  width: 50%;
+.BBQ {
+  width: 20%;
+}
+.foods {
+  margin: 0 auto;
 }
 
 /* Rankings CSS under here */

@@ -10,6 +10,8 @@ export default class Bbq extends React.Component {
     return (
         <div className='ButtonMain ButtonBbq' onClick = {test}>
           <h1 className='ButtonHead'>BBQ</h1>
+          <div className="foodframe"> <img className="BBQ foods" src={require("../../images/pixelsteak.png")} alt="BBQ Logo"/></div>
+
         </div>
     );
   }
