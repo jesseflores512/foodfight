@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './header'
 
-export default class Ranking extends React.Component {
+export default class HamRanks extends React.Component {
   render(){
     return (
       <div>
