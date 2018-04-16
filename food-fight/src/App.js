@@ -1,19 +1,28 @@
 import React from 'react';
-import Header from './components/layouts/header';
-import Main from './components/layouts/Main';
+import Main from './components/layouts/Main'
+import Ranking from './components/layouts/ranking'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
-// import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
+const Home = () => (
+  <div>
+  <Main />
+  </div>
+)
 
-class App extends React.Component {
-  render() {
-    return(
-      // <Router>
-        <div>
-          <Header />
-          <Main />
-        </div>
-      // </Router>
-    );
-  }
-}
-export default App;
+const Ranks = () => (
+  <div>
+  <Ranking/>
+  </div>
+)
+
+const AppRoutes = () => (
+  <Router>
+    <Switch>
+    <Route exact path="/" component={Home}/>
+    <Route exact path="/rankings" component={Ranks}/>
+  </Switch>
+  </Router>
+)
+
+export default AppRoutes;
+// export default () => <Routes/>
