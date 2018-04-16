@@ -11,15 +11,15 @@ const Ranks = () => (
 export default class Bbq extends React.Component {
   render(){
     return (
-      <Router>
+
         <div className='ButtonMain ButtonBbq'>
-        <Link to="/rankings">
+        <a href="/rankings">
           <h1 className='ButtonHead'>BBQ</h1>
-        </Link>
+        </a>
           <div className="foodframe"> <img className="BBQ foods" src={require("../../images/pixelsteak.png")} alt="BBQ Logo"/></div>
-          <Route exact path="/rankings" component={Ranks}/>
+
         </div>
-      </Router>
+
 
 
 
