@@ -19,28 +19,27 @@ export default class NewChallenger extends React.Component {
              <Text field="zipCode" placeholder="Zip Code" />
              <Text field="lastName" placeholder="Last Name" />
              <div>
-               Information Card
-               {values.friends &&
-                 values.friends.map((friend, i) => (
+               {values.newChallenger &&
+                 values.newChallenger.map((newChallenger, i) => (
                    <div>
                      <Text
-                       field={["friends", i, "restaurantName"]}
+                       field={["newChallenger", i, "restaurantName"]}
                        placeholder="Restaurant Name"
                      />
                      <Text
-                       field={["friends", i, "address"]}
+                       field={["newChallenger", i, "address"]}
                        placeholder="Address"
                      />
                      <Text
-                       field={["friends", i, "state"]}
+                       field={["newChallenger", i, "state"]}
                        placeholder="State"
                      />
                      <Text
-                       field={["friends", i, "zipCode"]}
+                       field={["newChallenger", i, "zipCode"]}
                        placeholder="Zip Code"
                      />
                      <Text
-                       field={["friends", i, "lastName"]}
+                       field={["newChallenger", i, "lastName"]}
                        placeholder="Last Name"
                      />
 

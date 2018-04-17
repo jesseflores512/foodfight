@@ -111,4 +111,7 @@ p {
   margin: 0 auto;
 }
 
-/* Rankings CSS under here */
+address {
+  font-family: 'Press Start 2P', cursive;
+
+}
