@@ -57,6 +57,12 @@
   box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
 }
 
+h3 {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Press Start 2P', cursive;
+}
+
 
 .myButton {
   color: #40C9A2;
@@ -74,7 +80,7 @@
   box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
   border: 2px solid rgb(28, 110, 164);
   position: absolute;
-  left: 41%;
+  left: 37%;
   display: inline-block;}
   .myButton:hover {
   background: #D90368; }

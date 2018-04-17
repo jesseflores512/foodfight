@@ -6,7 +6,9 @@ export default class NewChallenger extends React.Component {
     return (
     <div>
     <Header/>
+      <h3 className="NewChallenger">Nominate New Challenger</h3>
 
+        <div className="myButton">Nominate a challenger</div>
     </div>
   )}
 }
