@@ -1,56 +1,51 @@
 import React from 'react';
 import Header from './header'
-import { Form, Text } from "react-form";
 
 export default class NewChallenger extends React.Component {
   render() {
     return (
-    <div>
-    <Header/>
-      <h3 className="NewChallenger">Nominate New Challenger</h3>
 
-       <Form
-         render={({ submitForm, values, addValue, removeValue }) => (
-           <form onSubmit={submitForm}>
-             <Text field="restaurantName" placeholder="Restaurant Name" />
-             <Text field="address" placeholder="Address" />
-             <Text field="city" placeholder="City" />
-             <Text field="state" placeholder="State" />
-             <Text field="zipCode" placeholder="Zip Code" />
-             <Text field="lastName" placeholder="Last Name" />
-             <div>
-               {values.newChallenger &&
-                 values.newChallenger.map((newChallenger, i) => (
-                   <div>
-                     <Text
-                       field={["newChallenger", i, "restaurantName"]}
-                       placeholder="Restaurant Name"
-                     />
-                     <Text
-                       field={["newChallenger", i, "address"]}
-                       placeholder="Address"
-                     />
-                     <Text
-                       field={["newChallenger", i, "state"]}
-                       placeholder="State"
-                     />
-                     <Text
-                       field={["newChallenger", i, "zipCode"]}
-                       placeholder="Zip Code"
-                     />
-                     <Text
-                       field={["newChallenger", i, "lastName"]}
-                       placeholder="Last Name"
-                     />
+      <div>
+      <Header/>
+        <h3 className="NewChallenger">Nominate New Challenger</h3>
 
-                   </div>
-                 ))}
-                 <div className="myButton">Nominate a challenger</div>
-             </div>
-           </form>
-            )}
-          />
+            <div className="wrap-contact100">
+              <form className="contact100-form validate-form">
 
-    </div>
-  )}
-}
+                <div className="wrap-input100 validate-input" data-validate="Please enter your name">
+                  <input className="input100" type="text" name="name" placeholder="Name of Restaurant" />
+                  <span className="focus-input100"></span>
+                </div>
+
+                <div className="wrap-input100 validate-input" data-validate="Please enter your email: e@a.x">
+                  <input className="input100" type="text" name="email" placeholder="Address" />
+                  <span className="focus-input100"></span>
+                </div>
+
+                <div className="wrap-input100 validate-input" data-validate="Please enter your phone">
+                  <input className="input100" type="text" name="phone" placeholder="City" />
+                  <span className="focus-input100"></span>
+                </div>
+
+                <div className="wrap-input100 validate-input" data-validate="Please enter your phone">
+                  <input className="input100" type="text" name="phone" placeholder="State" />
+                  <span className="focus-input100"></span>
+                </div>
+
+                <div className="wrap-input100 validate-input" data-validate="Please enter your phone">
+                  <input className="input100" type="text" name="phone" placeholder="Zip Code" />
+                  <span className="focus-input100"></span>
+                </div>
+
+                <div className="wrap-input100 validate-input" data-validate="Please enter your message">
+                  <textarea className="input100" name="message" placeholder="Favorite Food"></textarea>
+                  <span className="focus-input100"></span>
+                </div>
+
+                <div className="myButton">Nominate a challenger</div>
+              </form>
+            </div>
+          </div>
+        )
+        }
+        }
