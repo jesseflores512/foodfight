@@ -10,7 +10,9 @@ export default class HamRanks extends React.Component {
           <p>Burger Champ</p>
           <p>Hopdoddy</p>
         <br/>
+        <a href = '/challenger'>
           <div className="myButton">Nominate a challenger</div>
+        </a>
 
       </div>
     )

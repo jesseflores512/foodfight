@@ -10,7 +10,9 @@ export default class BbqRanks extends React.Component {
           <p>BBQ Champ</p>
           <p>LA Barbeque</p>
         <br/>
+        <a href = '/challenger'>
           <div className="myButton">Nominate a challenger</div>
+          </a>
       </div>
     )
   }

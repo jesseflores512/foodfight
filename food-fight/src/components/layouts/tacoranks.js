@@ -10,7 +10,9 @@ export default class TacoRanks extends React.Component {
           <p>Taco Champ</p>
           <p>Torchy's Tacos</p>
         <br/>
-          <div className="myButton">Nominate a challenger</div>
+          <a href = '/challenger'>
+            <div className="myButton">Nominate a challenger</div>
+          </a>
       </div>
     )
   }
