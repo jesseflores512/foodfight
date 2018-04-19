@@ -1,6 +1,7 @@
+const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const ChallengerSchema = new Schema ({
+const ServerPort = new Schema ({
   name: {
     type: String,
     trim: true,
@@ -29,5 +30,8 @@ const ChallengerSchema = new Schema ({
     type: String,
     trim: true
   }
+},{ collection: 'foodfight'
 
 });
+
+module.exports = mongoose.model('ServerPort', ServerPort);
