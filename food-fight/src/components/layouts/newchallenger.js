@@ -115,7 +115,7 @@ export default class NewChallenger extends React.Component {
                 </div>
 
                 <div className="wrap-input100 validate-input" data-validate="Please enter your phone">
-                  <input className="input100" type="text" name="zip-code" value={this.state.zip} placeholder="Zip Code" onChange={this.onChangeZip}/>
+                  <input className="input100" type="text" name="zip" value={this.state.zip} placeholder="Zip Code" onChange={this.onChangeZip}/>
                   <span className="focus-input100"></span>
                 </div>
 
