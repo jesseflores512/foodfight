@@ -7,7 +7,7 @@ export default class Tacos extends React.Component {
         <a href='/taco_rankings'>
           <h1 className='ButtonHead'>Tacos</h1>
         </a>
-        <img className="Tacos foods" src={require("../../images/pixeltaco.png")} alt="Taco Logo"/>
+        {/* <img className="Tacos foods" src={require("../../images/pixeltaco.png")} alt="Taco Logo"/> */}
       </div>
     );
   }

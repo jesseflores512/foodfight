@@ -7,7 +7,7 @@ export default class Bbq extends React.Component {
           <a href="/bbq_rankings">
             <h1 className='ButtonHead'>BBQ</h1>
           </a>
-          <div className="foodframe"> <img className="BBQ foods" src={require("../../images/pixelsteak.png")} alt="BBQ Logo"/></div>
+          {/* <div className="foodframe"> <img className="BBQ foods" src={require("../../images/pixelsteak.png")} alt="BBQ Logo"/></div> */}
         </div>
 
 
