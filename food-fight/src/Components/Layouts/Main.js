@@ -10,6 +10,9 @@ export default class Main extends React.Component {
     return (
       <div>
         <Header />
+        <p> This App is to rank the undisputed champs in three different food categories:
+          Tacos, Burgers, and BBQ in Austin, TX.
+        </p>
         <Bbq />
         <Burgers />
         <Tacos />

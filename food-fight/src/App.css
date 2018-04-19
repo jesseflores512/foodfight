@@ -47,7 +47,8 @@
 
 .ButtonHead {
   text-align: center;
-  padding: 20px;
+  padding: 10px;
+
 }
 
  h2 {
@@ -124,7 +125,7 @@ p {
   text-align: center;
   font-family: 'Press Start 2P', cursive;
   font-weight: lighter;
-  font-size: 35px;
+  font-size: 30px;
   color: #FF0000;
 
 }
@@ -135,14 +136,16 @@ p {
 
 .Burgers {
   width: 20%;
+
 }
 
 .BBQ {
   width: 20%;
+  margin-left: 10px;
 
 }
-.foods {
-  padding-bottom: 10%;
+.foodframe {
+  margin: auto;
 }
 
 .wrap-input100 {
