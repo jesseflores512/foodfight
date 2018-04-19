@@ -29,6 +29,10 @@ const ServerPort = new Schema ({
   picture: {
     type: String,
     trim: true
+  },
+
+  likes: {
+    type: number
   }
 },{ collection: 'bbqrankings'
 

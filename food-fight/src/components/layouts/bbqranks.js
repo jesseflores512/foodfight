@@ -21,7 +21,7 @@ export default class BbqRanks extends React.Component {
     }
     tabRow(){
         return this.state.serverports.map(function(object, i){
-            return (<li>{object.name} location: {object.address} {object.city}, {object.state}</li>);
+            return (<li>{object.name} <br/> location: {object.address} {object.city}, {object.state} {object.zipcode}</li>);
         });
     }
 
@@ -30,7 +30,7 @@ export default class BbqRanks extends React.Component {
       <div>
       <Header />
         <h2 className="rankHeading">BBQ</h2>
-          <ol>
+          <ol className= 'list'>
             {this.tabRow()}
           </ol>
         <br/>
