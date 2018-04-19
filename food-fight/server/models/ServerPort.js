@@ -30,7 +30,7 @@ const ServerPort = new Schema ({
     type: String,
     trim: true
   }
-},{ collection: 'foodfight'
+},{ collection: 'bbqrankings'
 
 });
 
