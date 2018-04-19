@@ -26,13 +26,18 @@ const ServerPort = new Schema ({
     required: 'State is Required'
   },
 
+  zipcode: {
+    type: Number,
+    trim: true
+  },
+
   picture: {
     type: String,
     trim: true
   },
 
   likes: {
-    type: number
+    type: Number
   }
 },{ collection: 'bbqrankings'
 

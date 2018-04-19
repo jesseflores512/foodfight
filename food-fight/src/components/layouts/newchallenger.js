@@ -19,7 +19,7 @@ export default class NewChallenger extends React.Component {
       address: '',
       city: '',
       state: '',
-      zip: '',
+      zipcode: '',
       picture: '',
       likes: 0
     }
@@ -50,7 +50,7 @@ export default class NewChallenger extends React.Component {
     }
   onChangeZip(e) {
         this.setState({
-            zip: e.target.value
+            zipcode: e.target.value
         });
     }
 
@@ -67,7 +67,7 @@ export default class NewChallenger extends React.Component {
             address: this.state.address,
             city: this.state.city,
             state: this.state.state,
-            zipcode: this.state.zip,
+            zipcode: this.state.zipcode,
             picture: this.state.picture,
             likes: this.state.likes
 
@@ -115,7 +115,7 @@ export default class NewChallenger extends React.Component {
                 </div>
 
                 <div className="wrap-input100 validate-input" data-validate="Please enter your phone">
-                  <input className="input100" type="text" name="zip" value={this.state.zip} placeholder="Zip Code" onChange={this.onChangeZip}/>
+                  <input className="input100" type="number" name="zipcode" value={this.state.zipcode} placeholder="Zip Code" onChange={this.onChangeZip}/>
                   <span className="focus-input100"></span>
                 </div>
 

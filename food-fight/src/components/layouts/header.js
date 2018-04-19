@@ -4,7 +4,12 @@ import '../../App.css'
 export default class Header extends React.Component {
   render(){
     return (
-      <h2 className='Header'>FOOD FIGHT</h2>
+      <div>
+        <a href='/' className='homebutton'>
+          <button>Home</button>
+        </a>
+        <h2 className='Header'>FOOD FIGHT</h2>
+      </div>
     );
   }
 }
