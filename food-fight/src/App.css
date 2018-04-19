@@ -26,6 +26,7 @@
   font-size: 18px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
   font-family: 'Press Start 2P', cursive;
   box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
   padding: 30px;
@@ -63,12 +64,16 @@ h3 {
   font-family: 'Press Start 2P', cursive;
 }
 
+.rankHeading {
+  width: 50%;
+  border-radius: 31px;
+  margin: auto;
+}
 
 .myButton {
-  color: #40C9A2;
+  color: #FF1493;
   font-size: 15px;
   line-height: 15px;
-  padding: 15px;
   border-radius: 16px;
   font-family: 'Press Start 2P', cursive;
   font-weight: normal;
@@ -81,11 +86,13 @@ h3 {
   border: 2px solid rgb(28, 110, 164);
   position: absolute;
   left: 37%;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: inline-block;}
   .myButton:hover {
-  background: #D90368; }
+  background: #40C9A2; }
   .myButton:active {
-  background: #D90368; }
+  background: #40C9A2; }
 
 
 p {
@@ -97,7 +104,8 @@ p {
 
 }
 .Tacos {
-  width: 25%;
+  width: 23%;
+  padding-top:;
 }
 
 .Burgers {
@@ -106,9 +114,10 @@ p {
 
 .BBQ {
   width: 20%;
+
 }
 .foods {
-  margin: 0 auto;
+  padding-bottom: 10%;
 }
 
 .wrap-input100 {
@@ -121,6 +130,8 @@ p {
   border-bottom-left-radius: 31px;
   margin-bottom: 20px;
   z-index: 1;
+  margin: auto;
+
 }
 .input100 {
   position: relative;
@@ -132,6 +143,8 @@ p {
   font-size: 18px;
   line-height: 1.2;
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .validate-input {
   position: relative;

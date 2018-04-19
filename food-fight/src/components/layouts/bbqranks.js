@@ -12,7 +12,13 @@ export default class BbqRanks extends React.Component {
         <br/>
         <a href = '/challenger'>
           <div className="myButton">Nominate a challenger</div>
-          </a>
+        </a>
+      </div>
+      <div className="ListGroup">
+        <ListGroupItem>Item 1</ListGroupItem>
+        <ListGroupItem>Item 2</ListGroupItem>
+        <ListGroupItem>...</ListGroupItem>
+      </div>
       </div>
     )
   }
