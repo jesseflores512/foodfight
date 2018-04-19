@@ -8,7 +8,7 @@ export default class NewChallenger extends React.Component {
       <div>
       <Header/>
         <h3 className="NewChallenger">Nominate New Challenger</h3>
-
+            <div className="home">Home Page</div>
             <div className="wrap-contact100">
               <form className="contact100-form validate-form">
 
@@ -43,6 +43,7 @@ export default class NewChallenger extends React.Component {
                 </div>
 
                 <div className="myButton">Nominate a challenger</div>
+
               </form>
             </div>
           </div>
