@@ -72,6 +72,8 @@ h3 {
   border-radius: 31px;
   margin: auto;
   background: #E1E8E4;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .myButton {
@@ -92,6 +94,8 @@ h3 {
   left: 40%;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   display: inline-block;
   margin-bottom: 30px;}
 
