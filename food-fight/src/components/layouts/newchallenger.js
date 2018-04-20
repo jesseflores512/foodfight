@@ -120,7 +120,7 @@ export default class NewChallenger extends React.Component {
                 </div>
 
                 <div className="wrap-input100 validate-input" data-validate="Please enter your message">
-                  <input className="input100" name="message" value={this.state.picture} placeholder="add picture" onChange={this.onChangePic}></input>
+                  <input className="input100" name="message" value={this.state.picture} placeholder="Add Picture" onChange={this.onChangePic}></input>
                   <span className="focus-input100"></span>
                 </div>
 
